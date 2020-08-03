@@ -22,7 +22,7 @@ pygmentscodefencesguesssyntax = true
     info = "Data Analyst"
     #avatarurl = "images/avatar.jpg"
     #gravatar = "john.doe@example.com"
-    footercontent = "Enter a text here."
+    # footercontent = "Enter a text here."
 
     dateformat = "January 2, 2006"
 
@@ -55,12 +55,6 @@ pygmentscodefencesguesssyntax = true
     # Custom JS
     custom_js = []
 
-# If you want to use fathom(https://usefathom.com) for analytics, add this section
-[params.fathomAnalytics]
-    siteID = "ABCDE"
-    # Default value is cdn.usefathom.com, overwrite this if you are self-hosting
-    serverURL = "analytics.example.com"
-
 [taxonomies]
   category = "categories"
   series = "series"
@@ -70,12 +64,12 @@ pygmentscodefencesguesssyntax = true
     name = "Github"
     icon = "fab fa-github"
     weight = 1
-    url = "https://github.com/johndoe/"
+    url = "https://github.com/andreuCM11/"
 [[params.social]]
     name = "Email"
-    icon = "fab fa-gitlab"
+    icon = "fab fa-envelope-o"
     weight = 2
-    url = "https://gitlab.com/johndoe/"
+    url = "mailto:andreu_carma@gmail.com"
 [[params.social]]
     name = "LinkedIn"
     icon = "fab fa-linkedin"
@@ -109,35 +103,35 @@ pygmentscodefencesguesssyntax = true
             url = "contact/"
 
 
-    [languages.es]
-        languagename = "Português"
-        title = "João Ninguém"
+    # [languages.es]
+        # languagename = "Português"
+        # title = "João Ninguém"
 
-        [languages.pt-br.params]
-            author = "João Ninguém"
-            info = "Full Stack DevOps e Mágico"
-            description = "Sítio pessoal de João Ninguém"
-            keywords = "blog,desenvolvedor,pessoal"
-            footercontent = "Coloque algum texto aqui."
+        # [languages.pt-br.params]
+        #     author = "João Ninguém"
+        #     info = "Full Stack DevOps e Mágico"
+        #     description = "Sítio pessoal de João Ninguém"
+        #     keywords = "blog,desenvolvedor,pessoal"
+        #     footercontent = "Coloque algum texto aqui."
 
-        [languages.pt-br.menu]
+        # [languages.pt-br.menu]
 
-            [[languages.pt-br.menu.main]]
-            name = "Sobre"
-            weight = 1
-            url = "about/"
+        #     [[languages.pt-br.menu.main]]
+        #     name = "Sobre"
+        #     weight = 1
+        #     url = "about/"
 
-            [[languages.pt-br.menu.main]]
-            name = "Blog"
-            weight = 2
-            url = "posts/"
+        #     [[languages.pt-br.menu.main]]
+        #     name = "Blog"
+        #     weight = 2
+        #     url = "posts/"
 
-            [[languages.pt-br.menu.main]]
-            name = "Projetos"
-            weight = 3
-            url = "projects/"
+        #     [[languages.pt-br.menu.main]]
+        #     name = "Projetos"
+        #     weight = 3
+        #     url = "projects/"
 
-            [[languages.pt-br.menu.main]]
-            name = "Contato"
-            weight = 5
-            url = "contact/"
+        #     [[languages.pt-br.menu.main]]
+        #     name = "Contato"
+        #     weight = 5
+        #     url = "contact/"

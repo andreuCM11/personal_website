@@ -1,4 +1,0 @@
-+++
-title = "Contato"
-slug = "contact"
-+++
